@@ -23,10 +23,7 @@ app.use((req, res, next) => {
 app.use('/api', require('./routes/authRoutes'));
 
 // connect to mongodb
-mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-})
+mongoose.connect(process.env.MONGODB_URI, {})
     .then(() => {
         console.log('Connected to MongoDB')
         // start the server
