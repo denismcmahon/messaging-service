@@ -12,6 +12,27 @@
 
   .card-body {
     padding: 20px;
+
+    .text-danger {
+      color: #dc3545; /* Red color */
+      font-size: 0.875rem; /* 14px font size */
+      margin-top: 0.25rem; /* Add some space between input field and error message */
+    }
+
+    .dont-have-account {
+      font-size: 0.875rem; /* 14px font size */
+      color: #6c757d; /* Dark gray color */
+      margin-top: 1rem; /* Add some space between the button and the link */
+    }
+
+    .already-have-account a {
+      color: #007bff; /* Blue color for links */
+      text-decoration: none; /* Remove underline from links */
+    }
+
+    .already-have-account a:hover {
+      text-decoration: underline; /* Add underline on hover */
+    }
   }
 
   form {

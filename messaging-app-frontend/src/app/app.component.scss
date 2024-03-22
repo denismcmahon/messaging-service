@@ -1,0 +1,9 @@
+@import "../styles.scss";
+
+.navbar {
+    background-color: $green-color;
+
+    .nav-link, .navbar-brand {
+      color: white;
+    }
+}
