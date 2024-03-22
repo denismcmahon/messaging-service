@@ -1,0 +1,39 @@
+@import "../../styles.scss";
+
+.card {
+  margin-top: 50px;
+
+  .card-header {
+    background-color: $green-color;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .text-danger {
+    color: #dc3545; /* Red color */
+    font-size: 0.875rem; /* 14px font size */
+    margin-top: 0.25rem; /* Add some space between input field and error message */
+  }
+
+  form {
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      border-radius: 0;
+    }
+
+    button[type="submit"] {
+      background-color: $green-color;
+      border-color: $green-color;;
+      border-radius: 0;
+    }
+  }
+}
