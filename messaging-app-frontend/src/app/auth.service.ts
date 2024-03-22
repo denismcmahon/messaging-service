@@ -30,4 +30,9 @@ export class AuthService {
       })
     );
   }
+
+  logout() {
+    // Implement logout logic here, such as clearing user session or token
+    console.log('User logged out.');
+  }
 }
